@@ -99,3 +99,84 @@ article{
 }
 
 /*Divisor com imagem da página*/
+.woman-div{
+    width: 100%;
+    height: 363px;
+    background-color: #000000;
+    background-image: url(images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.woman-div h1{
+    width: 265px;
+    height: 141px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;    
+    text-shadow: 3px 3px 2px #33A8DB;   
+}
+
+/*Diferencial do curso*/
+nav{
+    border-top: 2px solid #186586;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+.diferencial{
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+.diferencial h1{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    background: linear-gradient(#186586, #44a3e2);
+    -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+    text-transform: uppercase;
+    width: 90%;
+}
+.diferencial p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/*Rodapé*/
+footer{
+    border-top: 1px solid #186586;
+    height: 150px;
+    background-image: linear-gradient(#000000, #1a556e);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+footer p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;   
+}
+footer span{
+    text-transform: lowercase;
+    color: #268db9;
+}
